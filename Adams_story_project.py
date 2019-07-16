@@ -12,22 +12,21 @@ print ("--------------")
 
 beginning = {
     'scene1': f'{new_hero} went deep down into the forest. '
-     f' And met with the {new_villan} by accident. The {new_villan} scared {new_hero} and {new_gender} ran away. '
+     f' And met with {new_villan} by accident. {new_villan} scared {new_hero} and {new_gender} ran away. '
      f' {new_gender} got lost and wondered through the forest.'}
 
 middle = {
-    'scene1': f"This gave the {new_villan} enough time to arrive at {new_hero}'s home to eat {new_victim}."
-              f" When {new_hero} arrived at {new_gender}'s' home, {new_gender} saw the {new_villan} disguised as "
+    'scene1': f"This gave {new_villan} enough time to arrive at {new_hero}'s home to eat {new_victim}."
+              f" When {new_hero} arrived at home, {new_gender} saw the {new_villan} disguised as "
     f"{new_victim}."
-    f" And went closer to give a hug. "
-    f"The {new_villan} used this opportunity to eat {new_gender} and then went to sleep feeling tired after swollowing  "
-    f"{new_gender}"
+    f" {new_hero} went closer to give a hug. "
+    f" {new_villan} used this opportunity to eat {new_hero} and then went to sleep feeling tired after eating."
 }
 
 end = {
-    'scene1': f"Then {new_hero} quickly got out the {new_weapon}  and started to cut open the {new_villan}'s stomach"
+    'scene1': f"Then {new_hero} quickly got out the {new_weapon}  and started to cut open {new_villan}'s stomach"
     f" from the inside out. "
-    f" The {new_villan} screamed and died leaving it's skin. The {new_hero} used the skin to make a winter coat out of it"
+    f"  {new_villan} screamed and then died leaving it's skin.  {new_hero} used the skin to make a winter coat out of it"
     f" and spent the days remembering mourning over {new_victim} "
      "The End."
 }
